@@ -15,14 +15,203 @@
   >
 </head>
 
-<body>
+<form>
+  <h1>New Address</h1>
+  <p>
+    <img
+      src="./images/new_address.jpg"
+      alt="hero-image"
+    >
+  </p>
+  <!-- description -->
+  <p><b>Please provide a valid address</b>, otherwise we will not be able to send your stuff.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <!-- end description -->
+  <!-- useful links -->
+  <h2>Useful links</h2>
 
+  <ul>
+    <li>
+      <a
+        href="https://www.google.com/maps"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Maps"
+      >https://www.google.com/maps</a>
+    </li>
+    <li>
+      <a
+        href="https://www.coduripostale.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="codes"
+      >https://www.coduripostale.com</a>
+    </li>
+  </ul>
+  <!-- end useful links -->
+  <!-- form section begins -->
+  <h2>Address Form</h2>
+  <form>
+    <!-- form fieldset begins -->
+    <fieldset>
+      <legend>Address Information:</legend>
+      <label>Title:</label>
+      <label for="male">Mr</label>
+      <input
+        type="radio"
+        name="gender"
+        id="male"
+        value="male"
+        checked
+      >
+
+      <label for="female">Ms</label>
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+      >
+
+      <label for="na">Unspecified</label>
+      <input
+        type="radio"
+        name="gender"
+        id="na"
+        value="na"
+      >
+
+      <br><br>
+
+      <label for="name">*Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      >
+
+      <br><br>
+
+      <label for="surname">*Surname:</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      >
+
+      <br><br>
+
+      <label for="phone">*Phone</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      >
+
+      <br><br>
+
+      <label for="address1">*Address Line 1:</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      >
+
+      <br><br>
+
+      <label for="address2">*Address Line 2:</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        placeholder="Address Line 2"
+        required
+      >
+
+      <br><br>
+
+      <label for="city">*City:</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        placeholder="City"
+        required
+      >
+
+      <br><br>
+      <label for="state">*State:</label>
+      <select
+        name="state"
+        id="state"
+        required
+      >
+        <option value="">--State--</option>
+        <option value="arkansas">Arkansas</option>
+        <option value="maine">Maine</option>
+        <option value="florida">Florida</option>
+      </select>
+
+      <br><br>
+
+      <label for="postcode">*Postcode:</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
+      >
+
+      <br><br>
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+      >
+      <label for="gdpr-consent">GDPR generic consent?</label>
+
+      <br><br>
+
+      <button
+        type="submit"
+        name="submit"
+        id="submit"
+      >Create Account</button>
+
+      <button
+        type="reset"
+        name="reset"
+        id="reset"
+      >Reset</button>
+    </fieldset>
+    <!-- form fieldset ends -->
+  </form>
+  <!-- form section ends -->
 
   <div
     class="pixeltab-host"
     id="html01-04-06"
   ></div>
   <script src="https://pixellab.ro/js/pixeltab/static/js/pixeltab.js"></script>
-</body>
+  </body>
 
 </html>
