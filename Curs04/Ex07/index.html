@@ -16,7 +16,36 @@
 </head>
 
 <body>
-
+  <nav>
+    <p>
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Home"
+      >Home</a>
+      *
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Place Order"
+      ><b>Place Order</b></a>*
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Customer Service"
+      >Customer Service</a>
+      *
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Contact"
+      >Contact</a>
+    </p>
+  </nav>
   <h1>Place Order</h1>
   <p>This is the <b>guest checkout</b>, thank you for your order!</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -260,9 +289,113 @@
 
     <fieldset>
       <legend>Card Infromation</legend>
+      <label for="card-number">*Card number</label>
+      <input
+        type="text"
+        name="card-number"
+        id="card-number"
+        placeholder="Card Number"
+        required
+      >
+
+      <br><br>
+
+      <label for="card-name">*Name on card</label>
+      <input
+        type="text"
+        name="card-name"
+        id="card-name"
+        placeholder="Name on card"
+        required
+      >
+
+      <br><br>
+      <label for="card-expiry-month">*Expiry Month</label>
+      <select
+        name="card-expiry-month"
+        id="card-expiry-month"
+        required
+      >
+        <option value="">--select month--</option>
+        <option value="jan">January</option>
+        <option value="feb">February</option>
+        <option value="mar">March</option>
+      </select>
+
+      <label for="card-expiry-year">*Expiry Year</label>
+      <select
+        name="card-expiry-year"
+        id="card-expiry-year"
+        required
+      >
+        <option value="">--select year--</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+      </select>
+
+      <br><br>
+
+      <label for="card-cvv">*CVV</label>
+      <input
+        type="text"
+        name="card-cvv"
+        id="card-cvv"
+        placeholder="CVV"
+        required
+      >
+
+      <p><em>We do not sore credit card information!</em></p>
     </fieldset>
 
-    <fieldset>Form Controls</fieldset>
+    <fieldset>
+      <legend>Form Controls</legend>
+
+      <input
+        type="checkbox"
+        name="terms"
+        id="terms"
+        required
+      >
+      <label for="terms">*You are required to agree to the
+        <a
+          href="https://google.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="terms and conditions"
+        >terms and conditions</a>
+
+        <br><br>
+
+        <input
+          type="checkbox"
+          name="subscribe"
+          id="subscribe"
+          required
+        >
+        <label for="subscribe">Can we send you emails?</label>
+
+        <br><br>
+
+        <input
+          type="checkbox"
+          name="gdpr-consent"
+          id="gdpr-consent"
+          required
+        >
+        <label for="gdpr-consent">GDPR generic consent?</label>
+
+        <button
+          type="submit"
+          name="submit"
+          id="submit"
+        >PLACE ORDER</button>
+
+        <button
+          type="reset"
+          name="reset"
+          id="reset"
+        >Reset</button>
+    </fieldset>
   </form>
 
   <br><br>
@@ -272,6 +405,37 @@
     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
     sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
   </p>
+
+  <nav>
+    <p>
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Home"
+      >Home</a>
+      *
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Place Order"
+      ><b>Place Order</b></a>*
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Customer Service"
+      >Customer Service</a>
+      *
+      <a
+        href="https://www.google.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Contact"
+      >Contact</a>
+    </p>
+  </nav>
   <div
     class="pixeltab-host"
     id="html01-04-07"
