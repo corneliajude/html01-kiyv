@@ -12,12 +12,24 @@ body {
 
 .box-1 {
   background-color: aquamarine;
+  border-color: green;
+  color: purple;
+  text-align: center;
+  font-weight: 500;
 }
 
 .box-2 {
   background-color: brown;
+  border: solid 5px gray;
+  color:white;
+  text-align: center;
+  font-weight: 700;
 }
 
 .box-3 {
   background-color: bisque;
+  border-color: blue;
+  color: red;
+  text-align: center;
+  font-weight: 900;
 }
