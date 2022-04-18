@@ -1,0 +1,62 @@
+.my-div {
+  width: 300px;
+  height: 202px;
+  background-color: red;
+  border: 1px solid green;
+  box-shadow: 1px 1px 5px green;
+  margin: 0 auto;
+}
+
+.blue{
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  background-color: blue;
+  padding: 15px;
+  box-shadow: inset 2px 2px 10px black;
+}
+
+.container {
+  width: 75%;
+  border: 3px solid green;
+  padding: 15px;
+  box-shadow: 3px 3px 2px blue;
+}
+
+.green {
+  width: 500px;
+  height: 220px;
+  background-color: green;
+  border: 1px solid black;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 15px 15px 2px gray;
+}
+
+.purple {
+  background-color: purple;
+  border: 2px dotted green;
+  border-radius: 40px;
+  padding: 20px;
+  box-shadow:  5px 5px 5px brown;
+}
+
+.turquoise {
+  background-color: turquoise;
+  border: 1px solid blue;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px red;
+  padding: 11px 20px;
+}
+
+.transparent {
+  margin: 0 auto;
+  width: 550px;
+  border: 2px solid red;
+  box-shadow: 10px 10px 5px gray;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

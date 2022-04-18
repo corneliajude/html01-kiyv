@@ -1,4 +1,59 @@
 .container {
-  border: 1px solid #000; 
+  border: 1px solid #000;
   padding: 5px;
+}
+
+.nav-top {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  right: 0;
+  background-color: black;
+  padding: 8px;
+  }
+
+.nav-top a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 4px;
+}
+
+
+.nav-bottom {
+  background-color: green;
+  position: fixed;
+  z-index: 1;
+  bottom:0;
+  left:0;
+  padding: 8px;
+}
+
+.nav-bottom a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 4px;
+}
+
+.container {
+  position: relative;
+}
+
+
+
+.container .legend {
+  position: absolute;
+  top: -5px;
+  background-color: grey;
+  border: 1px solid red;
+  padding: 5px;
+  color:whitesmoke;
+}
+
+
+.container .sub {
+  position: relative;
+  bottom: -4px;
+  font-size: 11px;
 }
