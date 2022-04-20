@@ -10,7 +10,7 @@
 
 .stage .title {
   position: absolute;
-  top: 5px; 
+  top: 5px;
   right: 5px
 }
 
@@ -21,3 +21,44 @@
   border: 1px solid red;
 }
 
+.stage-01 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stage-02 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.stage-03 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.stage-04 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.stage-05 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stage-06 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.stage-07 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}

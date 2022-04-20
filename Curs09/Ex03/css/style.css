@@ -1,5 +1,5 @@
 .card {
-  width: 80%; 
+  width: 80%;
   margin: 25px auto;
   border: 1px solid #000;
   overflow: hidden;
@@ -9,3 +9,19 @@
   float: left;
 }
 
+.orientation-left img {
+  float: left;
+  box-shadow: 6px 3px 3px red;
+}
+
+.orientation-right img {
+  float: right;
+  box-shadow: 6px 3px 3px red;
+  /* This seems not to work */
+}
+
+
+
+.card .float-left {
+  float:none;
+}
