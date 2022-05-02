@@ -1,0 +1,28 @@
+body {
+  color: green;
+}
+
+a {
+  color: inherit;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list ul {
+  list-style-type: inherit;
+}
+
+.para-short {
+  width: 321px;
+  border: 1px solid black;
+  margin: 10px auto;
+  padding: 15px;
+}
+
+.para-short p {
+  width: inherit;
+  text-align: center;
+  border: 1px solid red;
+}
