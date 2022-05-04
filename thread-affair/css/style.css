@@ -236,6 +236,10 @@ table {
   border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #707070;
@@ -262,8 +266,63 @@ a {
   float: left;
 }
 
+.header-connect li {
+  display: inline-block;
+}
+
+.header-connect li:first-child i[class*='fa-'] {
+  color: #ff6b6b;
+  font-size: 24px;
+}
+
+.header-connect li:nth-child(2) {
+  border-left: 1px solid #707070;
+  padding-left: 16px;
+  margin-left: 16px;
+}
+
 .header-controls {
   float: right;
+}
+
+.header-controls ul {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-controls .user-controls a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-controls .cart-controls {
+  position: relative;
+  /* parintele elementului cu position absolute trebuie sa fie pozitionat relativ */
+}
+
+.header-controls .cart-controls i[class*='fa-'] {
+  font-size: 24px;
+  display: inline-block;
+}
+
+.header-controls .cart-controls .qty {
+  min-width: 21px;
+  height: 21px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #ff6b6b;
+  border-radius: 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+  /* pozitiionam absolut si schimbam valorile pe orizontala si verticala */
+  position: absolute;
+  top: -12px;
+  right: -12px;
 }
 
 .header-logo {
@@ -275,14 +334,183 @@ a {
   text-align: center;
 }
 
-/* .nav-primary {text-align: center} */
+.nav-primary {
+  margin-bottom: 16px;
+}
 
 .nav-primary li {
   display: inline-block;
 }
 
-.nav-secondary li {
-  display: inline-block;
+.nav-primary li a {
+  display: inherit;
+  padding: 8px 18px;
+  margin: 0 4px;
+  border-radius: 24px;
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  transition: color 0.2s linear, background-color 0.2s linear;
 }
 
-/* header */
+.nav-primary li a:hover {
+  background-color: #ff6b6b;
+  color: #fff;
+}
+
+.nav-secondary li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+.nav-secondary li a {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 4px 8px;
+  transition: color 0.2s linear;
+}
+
+.nav-secondary li a:hover {
+  color: #ff6b6b;
+}
+/* end-header */
+
+/* footer */
+.footer-top {
+  background: #1b1927 url('./../images/banners/banner-06.jpg') no-repeat right
+    center;
+  margin-bottom: 16px;
+  padding: 50px;
+  color: #aeaeae;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.footer-nav {
+  margin-bottom: 50px;
+}
+/* .footer-nav {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+} */
+
+.footer-nav ul {
+  display: inline-block;
+  margin-right: 32px;
+  vertical-align: top;
+}
+
+.footer-nav ul li {
+  margin-bottom: 6px;
+}
+
+.footer-support {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-support li {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.footer-support li:first-child {
+  margin: 0;
+}
+
+.footer-support i[class*='fa-'] {
+  font-size: 24px;
+  color: #ff6b6b;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.footer-contact {
+  display: inline-block;
+  text-transform: none;
+  margin-left: 32px;
+}
+
+.footer-contact h1 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.footer-contact span {
+  font-weight: 500;
+}
+
+.footer-contact p {
+  line-height: 18px;
+}
+
+/* .footer-contact a:last-child {
+  color: #ff6b6b;
+  display: block;
+} */
+
+.footer-contact p a:nth-of-type(2) {
+  color: #ff6b6b;
+  display: block;
+}
+
+.footer-bottom {
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+
+.footer-copyright {
+  margin-top: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+/* end-footer */
+
+/* home-page */
+
+.content-main > section > header {
+  text-align: center;
+}
+
+.content-main > section > header > h1 {
+  font-size: 30px;
+  color: #292929;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 16px;
+}
+
+.content-main > section > header > h1 > span {
+  font-weight: 500;
+}
+
+/* We are Social */
+.home-social ul {
+  display: flex;
+  margin: 40px auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* end We are Social */
+
+/* how to pay */
+.home-payment ul {
+  max-width: 30%;
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* end-how to pay */
