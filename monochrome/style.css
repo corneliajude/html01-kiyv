@@ -1,0 +1,445 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Black.woff2') format('woff2'),
+    url('PlayfairDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('PlayfairDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Italic.woff2') format('woff2'),
+    url('PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+    url('PlayfairDisplay-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Medium.woff2') format('woff2'),
+    url('PlayfairDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Italic.woff2') format('woff2'),
+    url('PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-SemiBold.woff2') format('woff2'),
+    url('PlayfairDisplay-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Black.woff2') format('woff2'),
+    url('Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold.woff2') format('woff2'),
+    url('Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-BlackItalic.woff2') format('woff2'),
+    url('Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-BoldItalic.woff2') format('woff2'),
+    url('Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Italic.woff2') format('woff2'),
+    url('Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light.woff2') format('woff2'),
+    url('Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-LightItalic.woff2') format('woff2'),
+    url('Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-MediumItalic.woff2') format('woff2'),
+    url('Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Medium.woff2') format('woff2'),
+    url('Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+    url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-ThinItalic.woff2') format('woff2'),
+    url('Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Thin.woff2') format('woff2'),
+    url('Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* CSS reset begins */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* CSS reset ends */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Playfair Display', sans-serif;
+  color: #2b2b2b;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Header Begins */
+.header-top {
+  background: url('./images/banner@2x.png') no-repeat right top;
+  background-size: 100% auto;
+  min-height: 420px;
+}
+
+.header-top-inner {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+}
+
+.header-connect ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.header-connect a {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.24px;
+}
+
+.header-controls ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.nav-primary ul {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  gap: 13px;
+}
+
+.header-bottom {
+  background-color: #2b2b2b;
+}
+
+.nav-primary li {
+  display: inline-block;
+  font-size: 19px;
+  color: #ffffff;
+  letter-spacing: 0.24px;
+  padding: 10px 0;
+}
+/* Header Ends */
