@@ -473,6 +473,66 @@ a {
 /* end-footer */
 
 /* home-page */
+.content-header {
+  background: #1b1927 url('./../images/banners/banner-01.jpg') center center /
+    cover no-repeat;
+  height: 572px;
+  margin-bottom: 96px;
+}
+
+.banner-main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #ffffff;
+  height: inherit;
+  padding-left: 75px;
+}
+
+.banner-headings {
+  text-align: center;
+}
+
+.banner-headings h1 {
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.banner-headings h2 {
+  font-weight: 300;
+  font-size: 42px;
+  margin: 16px 0 43px 0;
+}
+
+.banner-headings .banner-cta {
+  display: inline-block;
+  border: 1px solid #ff6b6b;
+  border-radius: 36px;
+  padding: 27px 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ff6b6b;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.banner-cta:hover {
+  background-color: #ff6b6b;
+  color: #ffffff;
+}
+
+.banner-copy {
+  position: absolute;
+  left: 25px;
+  bottom: 40px;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.content-main > section {
+  margin-bottom: 96px;
+}
 
 .content-main > section > header {
   text-align: center;
@@ -490,27 +550,69 @@ a {
   font-weight: 500;
 }
 
+/* home-CTA */
+.home-cta a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  height: 236px;
+  background: #0066b2 url(./../images/banners/banner-04.jpg) center center /
+    cover no-repeat;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-right: 50px;
+}
+
+.home-cta a span:nth-last-of-type(1) {
+  margin-bottom: 16px;
+}
+
+.home-cta a > span:nth-child(even) {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.home-cta a > span:nth-child(even) span {
+  font-weight: 500;
+}
+/* end home-CTA */
+
 /* We are Social */
 .home-social ul {
-  display: flex;
-  margin: 40px auto;
-  align-items: center;
+  margin-top: 33px;
+  text-align: center;
+}
+
+.home-social li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.home-social a {
+  display: inline-flex;
   justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
+  align-items: center;
+  border: 2px solid #5e5e5e;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
 }
 /* end We are Social */
 
 /* how to pay */
 .home-payment ul {
-  max-width: 30%;
-  margin: 40px auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
+  margin: 43px auto 0 auto;
+  width: 340px;
+  text-align: center;
+}
+
+.home-payment ul li {
+  display: inline-block;
+  margin: 5px;
 }
 /* end-how to pay */
