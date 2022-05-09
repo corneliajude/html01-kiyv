@@ -528,6 +528,7 @@ a {
   bottom: 40px;
   font-weight: 300;
   font-size: 14px;
+  line-height: 20px;
 }
 
 .content-main > section {
@@ -549,6 +550,102 @@ a {
 .content-main > section > header > h1 > span {
   font-weight: 500;
 }
+
+.home-catalog-preview > header {
+  margin-bottom: 50px;
+}
+
+/* Product Tile */
+.product-tiles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-tile {
+  width: 27.34375%; /* Calcul: 350 (img size) : 1280 (container size) x 100 */
+}
+
+.product-tile .product-tile-image {
+  position: relative;
+}
+
+.product-tile .product-tile-image img {
+  width: 100%;
+}
+
+.product-tile-badge {
+  color: #ff6b6b;
+  font-size: 26px;
+  font-weight: 500;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.product-tile .product-tile-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.product-tile .product-tile-title span:first-child {
+  color: #1b1927;
+  font-weight: 500;
+}
+
+.product-tile .product-tile-title span:nth-child(2) {
+  font-weight: 500;
+}
+
+.product-tile-subtitle {
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.product-tile-pricing {
+  text-align: center;
+  margin: 16px 0;
+  font-size: 18;
+  font-weight: 300;
+}
+
+.product-tile .product-tile-pricing .product-price-regular {
+  text-decoration: line-through;
+}
+
+.product-tile .product-tile-pricing .product-price {
+  font-size: 24px;
+}
+
+.product-tile .product-tile-pricing .product-price span {
+  color: #ff6b6b;
+  font-weight: 500;
+}
+
+.product-tile .product-tile-controls {
+  text-align: center;
+}
+
+.product-tile .product-tile-controls .product-tile-a2c {
+  border: 2px solid #ff6b6b;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  border-radius: 32px;
+  background: none;
+  color: #ff6b6b;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  transition: color 0.2s linear, background-color 0.2s linear;
+}
+
+.product-tile .product-tile-controls .product-tile-a2c:hover {
+  color: #ffffff;
+  background-color: #ff6b6b;
+}
+/* end Product Tile */
 
 /* home-CTA */
 .home-cta a {
